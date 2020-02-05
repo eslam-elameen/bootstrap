@@ -105,6 +105,8 @@ img {
 
 .carousel-caption {
     bottom: 35%;
+    width: 33rem;
+    margin: 0 auto
 }
 
 .carousel-caption h1 {
