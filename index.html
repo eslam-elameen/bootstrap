@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e9c094e37f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" id="lang" href="./bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light text-center bg-light">
+        <a class="navbar-brand min_logo d-lg-none" href="#">Plants</a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            menu
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse  " id="navbarNavDropdown">
+            <ul class="navbar-nav m-auto  " >
+                <li class="nav-item ">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link link_hover" href="#about">ABOUT US</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link link_hover" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link link_hover" href="#team">OUR TEAM</a>
+                </li>
+                <li class="nav-item mr-4 d-none d-lg-block logo">
+                    <a class=" navbar-brand" href="#">Plants</a>
+                </li>
+                <li class="nav-item mr-4 dropdown">
+                    <a class="nav-link link_hover dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PAGES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link link_hover" href="#team">BLOG</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link link_hover" href="#gallary">GALLARY</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link link_hover" href="#contact">CONTACT US</a>
+                </li>
+                <li class="nav-item mr-4 dropdown">
+                    <a class="nav-link link_hover dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        lang
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" id="eng" href="#">ENG</a>
+                        <a class="dropdown-item" id="ar" href="#">AR</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <section class="hero">
+        <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 d-sm-block" src="./images/1.jpg" alt="First slide">
+                    <div class="carousel-caption  d-none d-md-block">
+                        <h1>Welcome to plants</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dolorem, debitis
+                            accusantium voluptate
+                            ex voluptatum es corporis qui.</p>
+                        <button class="d-sm-block btn__slide " data-toggle="modal" data-target="#exampleModalLong">read
+                            more</button>
+                        <a href="#about"><i class="fas fa-angle-double-down arrow_down"></i></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/2.jpg" alt="Second slide">
+                    <div class="carousel-caption  d-none d-md-block">
+                        <h1>Welcome to plants</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dolorem, debitis
+                            accusantium voluptate
+                            ex voluptatum es corporis qui.</p>
+                        <button class="d-sm-block btn__slide" data-toggle="modal" data-target="#exampleModalLong">read
+                            more</button>
+                        <a href="#about"><i class="fas fa-angle-double-down arrow_down"></i></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/3.jpg" alt="Third slide">
+                    <div class="carousel-caption  d-none d-md-block">
+                        <h1>Welcome to plants</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dolorem, debitis
+                            accusantium voluptate
+                            ex voluptatum es corporis qui.</p>
+                        <button class="d-sm-block btn__slide" data-toggle="modal" data-target="#exampleModalLong">read
+                            more</button>
+                        <a href="#about"><i class="fas fa-angle-double-down arrow_down"></i></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/4.jpg" alt="Third slide">
+                    <div class="carousel-caption  d-none d-md-block">
+                        <h1>Welcome to plants</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dolorem, debitis
+                            accusantium voluptate
+                            ex voluptatum es corporis qui.</p>
+                        <button class="d-sm-block btn__slide" data-toggle="modal" data-target="#exampleModalLong">read
+                            more</button>
+                        <a href="#about"><i class="fas fa-angle-double-down arrow_down"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        </div>
+    </section>
+
+    <div class="modal__container">
+        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        HELLO AMINOOZ
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">welcom</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class=" about section " id="about">
+        <div class="container">
+            <div class="row ">
+                <div class=" col-md-4 col-sm-12 offset-md-1">
+                    <div class="img_wrapper text-center">
+                        <img src="./images/ab.jpg" class="img-fluid" alt="">
+                        <img src="./images/ab2.jpg " class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="text col-md-6 col-sm-12 offset-md-1">
+                    <div class="about__content">
+                        <p>About Us</p>
+                        <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti est, consequuntur
+                            doloribus
+                            nostrum odit ipsa asperiores quas dolorem sapiente inventore cum libero numquam provident
+                            autem
+                            error aut perferendis suscipit unde?</p>
+                        <div class="media media_img">
+                            <img src="./images/te1.jpg" class="rounded-circle mr-3 " alt="...">
+                            <div class="media-body">
+                                <h5>Admin Name</h5>
+                                <p>Comany Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="icon_section mt-5 section" id="services">
+        <div class="icon_container container  text-center ">
+            <div class="row">
+                <div class="cards_green--section offset-md-1 col-sm-12 col-md-3">
+                    <div class="icon_header">
+                        <i class="fab fa-envira"></i>
+                    </div>
+                    <div class="cards-text">
+                        <h4>Garden Care </h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptates !</p>
+                    </div>
+                </div>
+                <div class="cards_green--section col-sm-12 col-md-3">
+                    <div class="icon_header">
+                        <i class="fab fa-envira"></i>
+                    </div>
+                    <div class="cards-text">
+                        <h4>Garden Care </h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptates !</p>
+                    </div>
+                </div>
+                <div class="cards_green--section col-sm-12 col-md-3">
+                    <div class="icon_header">
+                        <i class="fab fa-envira"></i>
+                    </div>
+                    <div class="cards-text">
+                        <h4>Garden Care </h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptates !</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="section latest_blog">
+        <div class="row  no-gutters">
+            <div class="col-sm-12 col-md-6 pl-3 text-center">
+                <h3 cl="latest_header ">Latest <span> Blog</span></h3>
+
+                <ul class="blog-align pl-4 list-unstyled">
+                    <li>
+
+                        <div class="blog_content d-flex justify-content-between">
+                            <h5></i>sit amet consectetur</h5> <span>21 NOV,2018</span>
+                        </div>
+                        <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, quae, minima saepe sit
+                            error, ut blanditiis veritatis </P>
+                    </li>
+                    <li>
+                        <div class="blog_content d-flex justify-content-between">
+                            <h5></i>sit amet consectetur</h5> <span>21 NOV,2018</span>
+                        </div>
+                        <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, quae, minima saepe sit
+                            error, ut blanditiis veritatis </P>
+                    </li>
+                    <li>
+                        <div class="blog_content d-flex justify-content-between ">
+                            <h5>sit amet consectetur</h5> <span>21 NOV,2018</span>
+                        </div>
+                        <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, quae, minima saepe sit
+                            error, ut blanditiis veritatis </P>
+                    </li>
+                </ul>
+            </div>
+        
+        <div class="latest_blog_img col-sm-12 offset-sm-0 offset-md-1 col-md-5 px-xs-0">
+            <img src="./images/blog.jpg" alt="">
+        </div>
+        </div>
+        <!-- </div> -->
+    </section>
+
+
+    <section class="choose section" id="choose">
+        <div class="container">
+            <h3 class="choose__topic text-center ">Why <span> Choose Us</span></h3>
+            <div class="row justify-content-center">
+                <div class="col-sm-12 mt-4 col-md-4">
+
+                    <div class="card ">
+                        <img src="./images/wh1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 mt-4 col-md-4">
+
+                    <div class="card ">
+                        <img src="./images/wh2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 mt-4 col-md-4">
+
+                    <div class="card ">
+                        <img src="./images/wh3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="tips ">
+        <div class="container">
+            <div class="tips_header col-sm-12 col-md-5">
+                <h2> We give you Care tips and Ideas on what Style suits your garden</h2>
+            </div>
+            <div class="row pt-5 pb-5">
+                <div class=" traffic col-sm-12 col-md-3">
+                    <div class="media">
+                        <i class="fas fa-leaf"></i>
+                        <div class="media-body">
+                            <h5 class="traffic_num mt-0">1280</h5>
+                            <p>happy costum</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="traffic col-sm-12 col-md-3">
+                    <div class="media">
+                        <i class="fas fa-leaf"></i>
+                        <div class="media-body">
+                            <h5 class="traffic_num mt-0">920</h5>
+                            <p>happy costum</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="traffic col-sm-12 col-md-3">
+                    <div class="media">
+                        <i class="fas fa-leaf"></i>
+                        <div class="media-body">
+                            <h5 class="traffic_num mt-0">1400</h5>
+                            <p>happy costum</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="traffic col-sm-12 col-md-3">
+                    <div class="media">
+                        <i class="fas fa-leaf"></i>
+                        <div class="media-body">
+                            <h5 class="traffic_num mt-0">1080</h5>
+                            <p>happy costum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="team" class="team section">
+        <div class="container">
+            <h3 class="team_header text-center">Our <span> team</span></h3>
+            <div class="row justify-content-center">
+                <div class="col-sm-8 mt-4 col-md-3">
+                    <div class="card team">
+                        <img src="./images/t1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <div class="icons__card">
+                                <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-twitter-square"></i>
+                                <i class="fab fa-google-plus-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 mt-4 col-md-3">
+                    <div class="card team">
+                        <img src="./images/t2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <div class="icons__card">
+                                <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-twitter-square"></i>
+                                <i class="fab fa-google-plus-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 mt-4 col-md-3">
+                    <div class="card team">
+                        <img src="./images/t3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <div class="icons__card">
+                                <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-twitter-square"></i>
+                                <i class="fab fa-google-plus-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 mt-4 col-md-3">
+                    <div class="card team">
+                        <img src="./images/t4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <div class="icons__card">
+                                <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-twitter-square"></i>
+                                <i class="fab fa-google-plus-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mary ">
+        <div class="container-fluid no-gutters">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 offset-md-2 ">
+                    <div class="mary_text ">
+                        <p> <i class="fas fa-quote-left"></i> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Laborum voluptates cupiditate
+                            expedita vero dolore dolor, rerum blanditiis voluptatibus reprehenderit praesentium dolores
+                            qui totam, nostrum quia quisquam? Odio a illum magni?</p>
+                        <h5>Mary Jan</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="plants section" id="gallary">
+        <div class="container">
+            <h3 class="plants__header text-center pb-5">Our <span> Plants</span></h3>
+            <div class="plants_container">
+                <div class="row justify-content-center">
+                    <div class="plants__gallary col-sm-9 col-md-3">
+                        <img src="./images/g1.jpg" alt="">
+                    </div>
+                    <div class="plants__gallary col-sm-9 col-md-3">
+                        <img src="./images/g2.jpg" alt="">
+                    </div>
+                    <div class="plants__gallary col-sm-9 col-md-3">
+                        <img src="./images/g3.jpg" alt="">
+                    </div>
+                    <div class="plants__gallary col-sm-9 col-md-3">
+                        <img src="./images/g4.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="row section justify-content-center">
+                    <div class="plants__gallary col-sm-9 col-md-3">
+                        <img src="./images/g5.jpg" alt="">
+                    </div>
+                    <div class="plants__gallary col-sm-9 col-md-3">
+                        <img src="./images/g6.jpg" alt="">
+                    </div>
+                    <div class="plants__gallary col-sm-9 col-md-3">
+                        <img src="./images/g7.jpg" alt="">
+                    </div>
+                    <div class="plants__gallary col-sm-9 col-md-3">
+                        <img src="./images/g8.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h3 class="text-center mb-5">Contact Us</h3>
+            <div class="row justify-content-center">
+                <div class="col-md-7">
+                    <fieldset>
+                        <legend>Send Us A Note</legend>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </fieldset>
+                </div>
+                <div class="contact__info col-sm-12 col-md-9 section mt-5">
+                    <div class="row justify-content-center w-100">
+                        <div class="icon col-sm-12 col-md-4 text-center">
+                            <i class="fas fa-envelope"></i>
+
+                            <div class="mail">
+                                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">Get in touch</a>
+                            </div>
+                        </div>
+                        <div class="icon col-sm-12 col-md-4">
+                            <i class="fas fa-phone-alt"></i>
+
+                            <div class="mail">
+                                <a href="tel:+201099466529">+201099466529</a>
+                            </div>
+                        </div>
+                        <div class="icon col-sm-12 col-md-4">
+                            <i class="fas fa-map"></i>
+                            <div class="mail">
+                                <p>Cairo-New Cairo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partner section">
+        <div class="container">
+            <h3 class="partner text-center pt-4">Our <span> Partners</span></h3>
+            <div class="row justify-content-center">
+                <div class="partner__icons text-center col-sm-12 col-md-2">
+                    <i class="fab fa-angellist"></i>
+                </div>
+                <div class="partner__icons text-center col-sm-12 col-md-2">
+                    <i class="fab fa-opencart"></i>
+                </div>
+                <div class="partner__icons text-center col-sm-12 col-md-2">
+                    <i class="fab fa-lastfm"></i>
+                </div>
+                <div class="partner__icons text-center col-sm-12 col-md-2">
+                    <i class="fab fa-openid"></i>
+                </div>
+                <div class="partner__icons text-center col-sm-12 col-md-2">
+                    <i class="fab fa-skyatlas"></i>
+                </div>
+                <div class="partner__icons text-center col-sm-12 col-md-2">
+                    <i class="fab fa-ravelry"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer_header-container ">
+                <div class="text-center footer_header  ">
+                    <h4 class="text-center">We Provide Best Services</h4>
+                    <p class="footer-paragraph mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                        at
+                        similique incidunt cum velit
+                        consequatur eaque neque modi</p>
+                </div>
+            </div>
+            <div class="footer-logo text-center">
+
+                <h2>plants</h2>
+                <p>ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="row mb-5 justify-content-center ">
+                <div class="logo__info col-md-3  col-sm-12">
+                    <i class="fas fa-envelope "></i>
+                    <p>e.elamin92@gmail.com</p>
+                </div>
+                <div class="logo__info col-md-3  col-sm-12">
+                    <i class="fas fa-phone-alt "></i>
+                    <p>01099466529</p>
+                </div>
+
+                <div class="logo__info col-md-3  col-sm-12">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Cairo,New Cairo</p>
+                </div>
+
+            </div>
+
+            <div class="icon text-center col-sm-12 ">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+
+
+        </div>
+        </div>
+    </footer>
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./popper.min.js"></script>
+    <script src="./bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</div>
+
+</html>
